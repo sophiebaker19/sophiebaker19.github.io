@@ -5,7 +5,7 @@ h1 {
     font-size: 30px;
     margin-top: 0px;
     padding-top: 20px;
-    color: grey;
+    color: rgb(0, 40, 126);
 }
 
 h2 {
@@ -41,7 +41,7 @@ span {
 /***NAV STYLING***/
 /***navigation bar style***/
 nav {
-    background-color: grey;
+    background-color: rgb(0, 40, 126);
     top: 0;
     bottom: 0;
     left: 0;
