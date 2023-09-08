@@ -538,7 +538,7 @@ button:hover {
     padding-bottom: 35px;
     border-style: double;
     border-width: 5px;
-    border-color: grey;
+    border-color: rgb(0, 40, 126);
     border-radius: 5px;
 }
 
@@ -662,7 +662,7 @@ input[type=text].message {
 /***FOOTER STYLES***/
 footer {
     height: 40px;
-    color: grey;
+    color: rgb(0, 40, 126);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 15px;
     padding-top: 25px;
