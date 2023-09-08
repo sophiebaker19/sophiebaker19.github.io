@@ -168,7 +168,7 @@ a:hover {
 .column1 {
     float: left;
     width: 47%;
-    background-color: grey;
+    background-color: rgb(0, 40, 126);
     height: 510px;
     border-radius: 3px;
     margin-left: 18px;
@@ -234,7 +234,7 @@ img {
     float: left;
     width: 47%;
     height: 510px;
-    background-color: grey;
+    background-color: rgb(0, 40, 126);
     border-radius: 3px;
     margin-right: 20px;
     margin-left: 20px;
@@ -464,7 +464,7 @@ button:hover {
     width: 47%;
     float: left;
     height: 500px;
-    background-color: grey; 
+    background-color: rgb(0, 40, 126); 
     margin-top: -50px;
     margin-bottom: 90px;
     margin-left: 60px;
@@ -554,7 +554,7 @@ button:hover {
 /***background for form***/
 .out-container {
     height: 410px;
-    background-color: grey;
+    background-color: rgb(0, 40, 126);
     border-radius: 5px;
     margin-right: 200px;
     margin-left: 200px;
