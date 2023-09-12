@@ -5,7 +5,7 @@ h1 {
     font-size: 30px;
     margin-top: 0px;
     padding-top: 20px;
-    color: rgb(0, 40, 126);
+    color: rgb(33, 49, 83);
 }
 
 h2 {
@@ -41,7 +41,7 @@ span {
 /***NAV STYLING***/
 /***navigation bar style***/
 nav {
-    background-color: rgb(0, 40, 126);
+    background-color: rgb(33, 49, 83);
     top: 0;
     bottom: 0;
     left: 0;
@@ -151,7 +151,7 @@ a:hover {
 /***ABOUT ME STYLING***/
 /***about section background***/
 .container1 {
-    background-color: rgb(0, 40, 126);
+    background-color: rgb(33, 49, 83);
     height: 600px;
     display: table;
     width: 100%;
@@ -168,7 +168,7 @@ a:hover {
 .column1 {
     float: left;
     width: 47%;
-    background-color: rgb(0, 40, 126);
+    background-color: rgb(33, 49, 83);
     height: 510px;
     border-radius: 3px;
     margin-left: 18px;
@@ -234,7 +234,7 @@ img {
     float: left;
     width: 47%;
     height: 510px;
-    background-color: rgb(0, 40, 126);
+    background-color: rgb(33, 49, 83);
     border-radius: 3px;
     margin-right: 20px;
     margin-left: 20px;
@@ -464,7 +464,7 @@ button:hover {
     width: 47%;
     float: left;
     height: 500px;
-    background-color: rgb(0, 40, 126); 
+    background-color: rgb(33, 49, 83); 
     margin-top: -50px;
     margin-bottom: 90px;
     margin-left: 60px;
@@ -538,7 +538,7 @@ button:hover {
     padding-bottom: 35px;
     border-style: double;
     border-width: 5px;
-    border-color: rgb(0, 40, 126);
+    border-color: rgb(33, 49, 83);
     border-radius: 5px;
 }
 
@@ -554,7 +554,7 @@ button:hover {
 /***background for form***/
 .out-container {
     height: 410px;
-    background-color: rgb(0, 40, 126);
+    background-color: rgb(33, 49, 83);
     border-radius: 5px;
     margin-right: 200px;
     margin-left: 200px;
@@ -662,7 +662,7 @@ input[type=text].message {
 /***FOOTER STYLES***/
 footer {
     height: 40px;
-    color: rgb(0, 40, 126);
+    color: rgb(33, 49, 83);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 15px;
     padding-top: 25px;
