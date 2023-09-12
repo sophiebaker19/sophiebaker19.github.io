@@ -82,7 +82,7 @@ a:hover {
 
 /***nav link selected***/
 .active {
-    color:  rgb(255, 218, 137);
+    color:  #f9cdc1;
     font-weight: bold;
     border-radius: 3px;
     font-size: 21px;
