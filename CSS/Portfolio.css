@@ -226,6 +226,7 @@ a:hover {
 img {
     object-fit: cover;
     height: 230px;
+    width: 22%;
     margin-right: 1px;
 }
 
