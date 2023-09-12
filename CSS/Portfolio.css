@@ -82,7 +82,7 @@ a:hover {
 
 /***nav link selected***/
 .active {
-    color:  #f9cdc1;
+    color:  #ffbdab;
     font-weight: bold;
     border-radius: 3px;
     font-size: 21px;
@@ -359,7 +359,7 @@ button:hover {
     width: 47%;
     float: left;
     height: 300px;
-    background-color: rgb(251, 225, 168);
+    background-color: #ffbdab;
     margin-left: 90px;
     margin-top: 10px;
     border-radius: 5px;
@@ -428,7 +428,7 @@ button:hover {
     margin-top: -60px;
     border-radius: 5px;
     border-style: double;
-    border-color: grey;
+    border-color: rgb(255, 255, 255);
     border-width: 5px;
     opacity: 0.9;
     z-index: 100;
