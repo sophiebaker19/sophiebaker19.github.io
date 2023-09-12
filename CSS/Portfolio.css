@@ -473,7 +473,7 @@ button:hover {
     border-style: double;
     border-color: white;
     border-width: 5px;
-    opacity: 0.9;
+    opacity: 1;
     color: white;
     padding-right: 2%;
     padding-left: 2%;
