@@ -38,10 +38,50 @@
                     </p>
                 </div>
             </div>
-
-
         </div>
         <!--END INTRO-->
+
+        <!--SLIDESHOW-->
+        <div id="slideshow">
+            <div id="slideshow-background">
+                <div id="slideshow-container">
+                    <!--Slide 1 of 4-->
+                    <div class="mySlides fade">
+                        <img class="slideshow-images" src="./Images/Me (Profile Photo).jpg" alt="Myself">
+                        <div></div>
+                    </div>
+                    <!--Slide 2 of 4-->
+                    <div class="mySlides fade">
+                        <img class="slideshow-images" src="./Images/ONC Netball (white Background).JPG" alt="ONC Netball">
+                        <div class="text">I'm a keen netballer outside of work, I'm also the Secretary for my club and 
+                        currently in training to become a Level 2 coach.</div>
+                    </div>
+                    <!--Slide 3 of 4-->
+                    <div class="mySlides fade">
+                        <img class="slideshow-images" src="./Images/Autumn-Winter.jpg" alt="Autumn/Winter">
+                        <div class="text"> My favourite season, or should I say seasons, is Autumn/Winter!</div>
+                    </div>
+                    <!--Slide 4 of 4-->
+                    <div class="mySlides fade">
+                        <img class="slideshow-images" src="./Images/Endgame.jpg" alt="MCU Endgame">
+                        <div class="text">My favourite Movie Franchise is the MCU of course 😊</div>
+                    </div>
+                    <!--prev and next buttons-->
+                    <a class="previous" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br> <!--add space between images and dots-->
+
+                <!--slideshow dots-->
+                <div style="text-align: center;">
+                    <span class="dot" onclick="currentslide(1)"></span>
+                    <span class="dot" onclick="currentslide(2)"></span>
+                    <span class="dot" onclick="currentslide(3)"></span>
+                    <span class="dot" onclick="currentslide(4)"></span>
+                </div>
+            </div>
+        </div>
+        <!--END SHLIDESHOW-->
 
         <!--ABOUT-->
         <div id="abo" class="container1">
@@ -114,26 +154,26 @@
         <!--CONTACT-->
         <div id="con" class="container3">
             <h1>Contact</h1>
-            <div class="out-container">
-                <div>
-                    <form action="" method="POST">
-                        <label>Name:</label>
-                            <input type="text">
-                        <label>Email:</label>
-                            <input type="text">
-                        <label>Message:</label>
-                            <textarea class="message"></textarea>
-                            <input class="sub-button" type="submit" value="SUBMIT">
-                    </form>
-                </div>
+            <div class="out-container" id="myForm">
+                <form action="" method="POST">
+                    <label>Name:</label>
+                        <input type="text" required>
+                    <label>Email:</label>
+                        <input type="text" required>
+                    <label>Message:</label>
+                        <textarea class="message" required></textarea>
+
+                    <button class="sub-button" type="submit">Submit</button>
+                </form>
             </div>
         </div>
         <!--END CONTACT-->
 
         <!--FOOTER-->
         <footer>
-            &copy 2023 Sophie Molly
+            &copy; 2023 Sophie Molly
         </footer>
         <!--END FOOTER-->
+        <script src="./JS/portfolio.js"></script>
     </body>
 </html>

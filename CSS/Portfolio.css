@@ -1,4 +1,8 @@
 /*GENERIC STYLING*/
+html {
+    scroll-behavior: smooth;
+}
+
 h1 {
     text-align: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -82,7 +86,7 @@ a:hover {
 
 /***nav link selected***/
 .active {
-    color:  #ffbdab;
+    color:  #fed8a2;
     font-weight: bold;
     border-radius: 3px;
     font-size: 21px;
@@ -147,6 +151,107 @@ a:hover {
     cursor: pointer;
 }
 /***END INTRO STYLING***/
+
+/***SLIDESHOW STYLING***/
+#slideshow-background {
+    background: grey;
+}
+
+.mySlides {
+    display: none;
+}
+
+#slideshow-container {
+    width: 39.5vw;
+    height: 39.5vw;
+    padding-top: 4%;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+#slideshow-container a {
+    text-decoration: none;
+}
+
+.slideshow-images {
+    vertical-align: middle;
+    height: auto;
+    box-shadow: 0px 5px 10px 12px rgba(0, 0, 0, .75);
+    width: 100%;
+}
+
+.previous, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 2vw;
+    color: #fed8a2;
+    font-weight: bold;
+    font-size: 1.5vw;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    transition: 0.6s ease;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.previous:hover, .next:hover {
+    background-color: #fed8a2;
+    color: white;
+}
+
+.text {
+    color: white;
+    padding: 0.8vw;
+    position: absolute;
+    bottom: 0;
+    width: 96%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: .1vw;
+    background-color: black;
+    font-weight: bold;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.dot {
+    cursor: pointer;
+    height: 1vw;
+    width: 1vw;
+    margin: .25vw;
+    background-color: #fed8a2;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    z-index: 1;
+}
+
+.dot:hover {
+    background-color: white;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4s;}
+    to {opacity: 1;}
+}
+
+@keyframes fade {
+    from {opacity: .4;}
+    to {opacity: 1;}
+}
+/***END SLIDESHOW STYLING***/
 
 /***ABOUT ME STYLING***/
 /***about section background***/
